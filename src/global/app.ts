@@ -16,3 +16,6 @@ export default async () => {
       });
   }
 };
+
+const __DEV__ = false
+console.log('__DEV__',__DEV__)
