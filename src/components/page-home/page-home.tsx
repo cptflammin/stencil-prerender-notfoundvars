@@ -16,9 +16,8 @@ export class PageHome {
 
 
   async componentWillLoad() {
-
     dataService.getDummyData()
-
+        .then(data => console.log(data))
   }
 
   setMode(mode: string) {
@@ -72,8 +71,8 @@ export class PageHome {
           </ion-list>
           <p>Let's try navigating with ionic router!</p>
           <ion-list>
-            <ion-item href="/tab/notice">
-              <ion-label>Notice Page (/tab/notice)</ion-label>
+            <ion-item href="/notice">
+              <ion-label>Notice Page (/notice)</ion-label>
             </ion-item>
             <ion-item href="/profile/ionic">
               <ion-label>Profile Page (/profile/ionic)</ion-label>
