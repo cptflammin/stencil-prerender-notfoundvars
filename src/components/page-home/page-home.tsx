@@ -13,8 +13,6 @@ export class PageHome {
     this.mode = localStorage.getItem('mode') || 'auto'
   }
 
-
-
   async componentWillLoad() {
     dataService.getDummyData()
         .then(data => console.log(data))

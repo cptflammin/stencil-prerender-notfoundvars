@@ -19,7 +19,7 @@ export class PageProfile {
         <ion-header>
           <ion-toolbar color="primary">
             <ion-buttons slot="start">
-              <ion-back-button defaultHref="/tab/notice"></ion-back-button>
+              <ion-back-button defaultHref="/notice"></ion-back-button>
             </ion-buttons>
             <ion-title>Profile: {this.name}</ion-title>
           </ion-toolbar>

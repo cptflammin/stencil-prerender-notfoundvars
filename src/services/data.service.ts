@@ -99,6 +99,7 @@ class DataController {
                 }
             }
         `
+
         return this.getData({
             query,
             variables,

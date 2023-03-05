@@ -21,6 +21,9 @@ export class PageNotice {
       <Fragment>
         <ion-header>
           <ion-toolbar color="primary">
+            <ion-buttons slot="start">
+              <ion-back-button defaultHref="/home"></ion-back-button>
+            </ion-buttons>
             <ion-title>Notices</ion-title>
           </ion-toolbar>
         </ion-header>
